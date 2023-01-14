@@ -3,17 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Obstacle
+  - WeaponsCanvas
+  - CameraHolder
+  - Camera
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Ground
+  - Enemy
+  - Obstacle
   - 
   - 
   - 

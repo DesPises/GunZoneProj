@@ -1,0 +1,337 @@
+fileFormatVersion: 2
+guid: b288ca2d6bc1ea44091f920acf29dc7b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TAVERNA_2_0
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1140
+        width: 1441
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e695f21d14f18234e976e0b7dd1776bd
+      internalID: -1327399892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TAVERNA_2_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 235
+        width: 1594
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00a8c7af99170c4da612d4e2bc4e1fa
+      internalID: -1807958992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c7621fea072766b4ca8b87be8dd9f213
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TAVERNA_2_66: 57709167
+      TAVERNA_2_29: -628880758
+      TAVERNA_2_21: -1163379102
+      TAVERNA_2_134: -56934943
+      TAVERNA_2_33: 7969209
+      TAVERNA_2_32: 212572928
+      TAVERNA_2_88: 1481031810
+      TAVERNA_2_50: 419189661
+      TAVERNA_2_121: 1862067100
+      TAVERNA_2_25: 533266923
+      TAVERNA_2_79: -1860557121
+      TAVERNA_2_80: -793326023
+      TAVERNA_2_57: 321341150
+      TAVERNA_2_58: 1856511988
+      TAVERNA_2_83: -1415331941
+      TAVERNA_2_75: 116718305
+      TAVERNA_2_24: 1867975982
+      TAVERNA_2_78: -266818348
+      TAVERNA_2_114: -489053730
+      TAVERNA_2_38: -549516726
+      TAVERNA_2_73: 1961663244
+      TAVERNA_2_31: 652793632
+      TAVERNA_2_11: 59639775
+      TAVERNA_2_51: -1603918717
+      TAVERNA_2_42: -298963675
+      TAVERNA_2_68: 236872249
+      TAVERNA_2_106: -725539686
+      TAVERNA_2_124: 1588907220
+      TAVERNA_2_125: -1900033980
+      TAVERNA_2_45: -996172016
+      TAVERNA_2_60: -662943823
+      TAVERNA_2_49: -1606640881
+      TAVERNA_2_9: -1927554186
+      TAVERNA_2_1: -1807958992
+      TAVERNA_2_122: 693418516
+      TAVERNA_2_85: 1849942791
+      TAVERNA_2_44: -1433547610
+      TAVERNA_2_43: -1983560324
+      TAVERNA_2_103: 339881430
+      TAVERNA_2_30: -403873334
+      TAVERNA_2_8: -386271684
+      TAVERNA_2_76: -376710561
+      TAVERNA_2_64: 959956763
+      TAVERNA_2_12: 334126906
+      TAVERNA_2_123: 1754242486
+      TAVERNA_2_98: -924783950
+      TAVERNA_2_2: -260980832
+      TAVERNA_2_87: -378902274
+      TAVERNA_2_99: -1750570047
+      TAVERNA_2_101: -1229496319
+      TAVERNA_2_97: -707167783
+      TAVERNA_2_41: -889684343
+      TAVERNA_2_53: 2043282499
+      TAVERNA_2_84: 1294471999
+      TAVERNA_2_96: 1890342475
+      TAVERNA_2_111: -443263527
+      TAVERNA_2_94: 1294911627
+      TAVERNA_2_118: -1370656933
+      TAVERNA_2_27: -1584182143
+      TAVERNA_2_90: 805690447
+      TAVERNA_2_135: 1931866416
+      TAVERNA_2_52: 1961338707
+      TAVERNA_2_100: -115396392
+      TAVERNA_2_129: 216480476
+      TAVERNA_2_20: -215080117
+      TAVERNA_2_86: 1474228901
+      TAVERNA_2_126: -1951776019
+      TAVERNA_2_37: -83336784
+      TAVERNA_2_23: -1638889160
+      TAVERNA_2_69: -1091346633
+      TAVERNA_2_6: 546754943
+      TAVERNA_2_82: -853102416
+      TAVERNA_2_91: 2145491368
+      TAVERNA_2_112: 1671603621
+      TAVERNA_2_92: 406235602
+      TAVERNA_2_74: 1045797963
+      TAVERNA_2_61: -1839927964
+      TAVERNA_2_132: -672267188
+      TAVERNA_2_110: -1756142438
+      TAVERNA_2_71: -249418716
+      TAVERNA_2_109: 431783597
+      TAVERNA_2_65: 1647145232
+      TAVERNA_2_18: -581581286
+      TAVERNA_2_47: 917004211
+      TAVERNA_2_26: -770345787
+      TAVERNA_2_63: -1919647277
+      TAVERNA_2_104: -195407489
+      TAVERNA_2_5: -817989933
+      TAVERNA_2_14: -650570957
+      TAVERNA_2_108: 138100546
+      TAVERNA_2_128: -1503199451
+      TAVERNA_2_10: -808716654
+      TAVERNA_2_39: 171009548
+      TAVERNA_2_77: 304289120
+      TAVERNA_2_133: 576449717
+      TAVERNA_2_17: 1639599472
+      TAVERNA_2_3: -1327055832
+      TAVERNA_2_93: 402803679
+      TAVERNA_2_102: -1274351668
+      TAVERNA_2_36: 182986266
+      TAVERNA_2_48: 1058245274
+      TAVERNA_2_120: -1783482436
+      TAVERNA_2_28: -362492282
+      TAVERNA_2_72: 476302824
+      TAVERNA_2_117: 883846863
+      TAVERNA_2_62: -1728584601
+      TAVERNA_2_19: 486305856
+      TAVERNA_2_67: 1866617096
+      TAVERNA_2_116: 1739567915
+      TAVERNA_2_105: 489418998
+      TAVERNA_2_4: -652418680
+      TAVERNA_2_107: -413680155
+      TAVERNA_2_22: -656668208
+      TAVERNA_2_55: -1414807955
+      TAVERNA_2_56: 191653853
+      TAVERNA_2_59: 241710725
+      TAVERNA_2_70: -1445325861
+      TAVERNA_2_127: 2019916531
+      TAVERNA_2_0: -1327399892
+      TAVERNA_2_119: 1282990408
+      TAVERNA_2_131: -729883934
+      TAVERNA_2_89: 562654012
+      TAVERNA_2_46: -149436035
+      TAVERNA_2_81: -757210286
+      TAVERNA_2_35: -1491839378
+      TAVERNA_2_13: 639573210
+      TAVERNA_2_40: 597152271
+      TAVERNA_2_7: -1431857367
+      TAVERNA_2_15: 1670023476
+      TAVERNA_2_130: -1078720281
+      TAVERNA_2_54: 360252259
+      TAVERNA_2_113: -2084079217
+      TAVERNA_2_34: 1727526095
+      TAVERNA_2_115: -657847455
+      TAVERNA_2_95: 1084795299
+      TAVERNA_2_16: -1834592364
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,5 +4,38 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CS_1_PROLOGUE.unity
+    guid: 87e0fc4505b372c4fae0be5a352faaaf
+  - enabled: 1
+    path: Assets/Scenes/GP_1_Road.unity
+    guid: 118c81c3c45062e4e977a792201f0c80
+  - enabled: 1
+    path: Assets/Scenes/CS_2_CONFLICT.unity
+    guid: da90b10ecd5b1284ead4584770c33af4
+  - enabled: 1
+    path: Assets/Scenes/GP_2_GayBombTown.unity
+    guid: 2fc270594e5234740b0e47085e9650e9
+  - enabled: 1
+    path: Assets/Scenes/CS_3_TRUSY.unity
+    guid: b35e706f5b8bf8049b942fb8bfcfcea9
+  - enabled: 1
+    path: Assets/Scenes/GP_3_GENTLEMAN.unity
+    guid: e923d4319b05861449d86cba681f6a0d
+  - enabled: 1
+    path: Assets/Scenes/CS_4_AVIAWHAT.unity
+    guid: 74cb28925e1f2f34d879ef8efaf30637
+  - enabled: 1
+    path: Assets/Scenes/GP_4_PohoduTak.unity
+    guid: 18736cd24075c4a449f53f88385c90f1
+  - enabled: 1
+    path: Assets/Scenes/CS_5_CAUGHT.unity
+    guid: 53966cd982b18bd4ca3a431a4efb0f34
+  - enabled: 1
+    path: Assets/Scenes/GP_5_ZDOROVOOTETS.unity
+    guid: f8d118030714d3f43a7f61393c83b5a4
+  - enabled: 1
+    path: Assets/Scenes/CS_6_KAK.unity
+    guid: b43ae6b21776e64478597ad872b76ee9
   m_configObjects: {}

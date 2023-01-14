@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1287800777641998711}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -0.6, y: 1.35, z: 45.41}
-  m_LocalScale: {x: 1.8, y: 1.8, z: 1.8}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4672889308662522375}
@@ -81,7 +81,7 @@ MonoBehaviour:
   walkPointRange: 0
   attackCooldown: 0
   sightRange: 50
-  attackRange: 1
+  attackRange: 1.2
   playerInSightRange: 0
   playerInAttackRange: 0
 --- !u!95 &1325203698751252929
@@ -452,7 +452,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3424625230180154155}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 076ba6dc7c24dd34b81072271a22a684, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.7

@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ground & rocks pattern 02
-  m_Shader: {fileID: 4800000, guid: a00a99860e2a7e342a18c86a1165fda4, type: 3}
+  m_Shader: {fileID: 4800000, guid: 30e31e1939cb2fc46a95910590568c8a, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
