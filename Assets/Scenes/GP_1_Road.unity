@@ -11606,34 +11606,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 411329886492219892, guid: f83fb91fa05bd4c47bbf268f63c1dac9, type: 3}
-      propertyPath: magShotgun
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 411329886492219892, guid: f83fb91fa05bd4c47bbf268f63c1dac9, type: 3}
-      propertyPath: ammoShotgun
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 411329886492219892, guid: f83fb91fa05bd4c47bbf268f63c1dac9, type: 3}
-      propertyPath: ammoRevolver
-      value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: 411329886492219892, guid: f83fb91fa05bd4c47bbf268f63c1dac9, type: 3}
-      propertyPath: startWeaponID
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 411329886492219892, guid: f83fb91fa05bd4c47bbf268f63c1dac9, type: 3}
-      propertyPath: whipAvailable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 411329886492219892, guid: f83fb91fa05bd4c47bbf268f63c1dac9, type: 3}
-      propertyPath: shotgunAvailable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3551601009197330787, guid: f83fb91fa05bd4c47bbf268f63c1dac9, type: 3}
-      propertyPath: field of view
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 5235841443553096547, guid: f83fb91fa05bd4c47bbf268f63c1dac9, type: 3}
       propertyPath: m_RootOrder
       value: 4

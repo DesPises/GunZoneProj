@@ -203,8 +203,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7cce2cbe3d9caf44592e7006ea43b1b5, type: 2}
-  m_sharedMaterial: {fileID: 6377953512745035120, guid: 7cce2cbe3d9caf44592e7006ea43b1b5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ec0a4830b9ac5b479366af7b449c54e, type: 2}
+  m_sharedMaterial: {fileID: 64354197465887929, guid: 2ec0a4830b9ac5b479366af7b449c54e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -369,8 +369,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7cce2cbe3d9caf44592e7006ea43b1b5, type: 2}
-  m_sharedMaterial: {fileID: 6377953512745035120, guid: 7cce2cbe3d9caf44592e7006ea43b1b5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ec0a4830b9ac5b479366af7b449c54e, type: 2}
+  m_sharedMaterial: {fileID: 64354197465887929, guid: 2ec0a4830b9ac5b479366af7b449c54e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -504,8 +504,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 2/40
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7cce2cbe3d9caf44592e7006ea43b1b5, type: 2}
-  m_sharedMaterial: {fileID: 6377953512745035120, guid: 7cce2cbe3d9caf44592e7006ea43b1b5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ec0a4830b9ac5b479366af7b449c54e, type: 2}
+  m_sharedMaterial: {fileID: 64354197465887929, guid: 2ec0a4830b9ac5b479366af7b449c54e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1358,8 +1358,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 2
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7cce2cbe3d9caf44592e7006ea43b1b5, type: 2}
-  m_sharedMaterial: {fileID: 6377953512745035120, guid: 7cce2cbe3d9caf44592e7006ea43b1b5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ec0a4830b9ac5b479366af7b449c54e, type: 2}
+  m_sharedMaterial: {fileID: 64354197465887929, guid: 2ec0a4830b9ac5b479366af7b449c54e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1493,8 +1493,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Arsenal
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7cce2cbe3d9caf44592e7006ea43b1b5, type: 2}
-  m_sharedMaterial: {fileID: 6377953512745035120, guid: 7cce2cbe3d9caf44592e7006ea43b1b5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ec0a4830b9ac5b479366af7b449c54e, type: 2}
+  m_sharedMaterial: {fileID: 64354197465887929, guid: 2ec0a4830b9ac5b479366af7b449c54e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3555,10 +3555,10 @@ MonoBehaviour:
   damageShotgun: 25
   damageRevolver: 50
   damageWhip: 75
-  shotgunAvailable: 1
+  shotgunAvailable: 0
   revolverAvailable: 1
-  whipAvailable: 1
-  startWeaponID: 0
+  whipAvailable: 0
+  startWeaponID: 1
   shotgunPatternHelper: {fileID: 98853021}
   shotgunRange: 50
   revolverRange: 80
@@ -3569,8 +3569,8 @@ MonoBehaviour:
   whipArsenalIcon: {fileID: 1851579419}
   whipHit: {fileID: 2498483750661121615}
   ammoText: {fileID: 496182593}
-  magShotgun: 2
-  ammoShotgun: 20
+  magShotgun: 0
+  ammoShotgun: 0
   magRevolver: 6
   ammoRevolver: 24
 --- !u!114 &4973428293187083626
