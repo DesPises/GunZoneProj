@@ -271,13 +271,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 100
+  damage: 10
   deathSmokePrefab: {fileID: 7604028610693694211, guid: 6eb6492e90374d543a10b2eef474de9a, type: 3}
+  tapok: {fileID: 0}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
+  boss: 0
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 0
   attackCooldown: 0

@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager gameManager;
+
     [SerializeField] private float cooldown = 5f;
     private float multiplier = 0.9f; // each wave subtract 10% from cooldown
     [SerializeField] private Transform[] points;
@@ -18,6 +20,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        gameManager = this;
         blackScreenEntry.SetActive(true);
         StartCoroutine(SpawnWave(1f));
     }
@@ -45,6 +48,11 @@ public class GameManager : MonoBehaviour
         }
         if (wavesRemaining > 0)
             StartCoroutine(SpawnWave(cooldown));
+    }
+
+    public void EndLevelMethod()
+    {
+        StartCoroutine(EndLevel());
     }
 
     public IEnumerator EndLevel()

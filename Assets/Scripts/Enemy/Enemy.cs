@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
@@ -8,12 +9,17 @@ using UnityEngine.AI;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] float HP = 100f;
+    [SerializeField] float damage = 10f;
     [SerializeField] GameObject deathSmokePrefab;
+    [SerializeField] GameObject tapok;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask playerLayer;
     private NavMeshAgent agent;
     private Transform player;
     private Animator anim;
+    [SerializeField] bool boss;
+    [SerializeField] Image hpbar;
+    [SerializeField] private bool shootingEnemy;
 
 
     // Patroling
@@ -24,6 +30,8 @@ public class Enemy : MonoBehaviour
     // Attacking
     [SerializeField] private float attackCooldown;
     private bool canAttack = true;
+    [SerializeField] Transform bossAttackSpawnPoint;
+
 
     // States
     [SerializeField] private float sightRange = 20f;
@@ -56,6 +64,10 @@ public class Enemy : MonoBehaviour
             Patrol();
         }
 
+        if (boss)
+        {
+            hpbar.fillAmount = HP * 0.00067f;
+        }
 
     }
 
@@ -135,6 +147,10 @@ public class Enemy : MonoBehaviour
     void Death()
     {
         anim.SetTrigger("death");
+        if (boss)
+        {
+            GameManager.gameManager.EndLevelMethod();
+        }
     }
 
     public void DeathSmoke()
@@ -147,5 +163,28 @@ public class Enemy : MonoBehaviour
     public void Destroy()
     {
         Destroy(gameObject);
+    }
+
+    public void CheckHit()
+    {
+        if (playerInAttackRange)
+        {
+            PlayerHP.player.GetDamage(damage);
+        }
+    }
+
+    public void BossAttack()
+    {
+        Instantiate(tapok, bossAttackSpawnPoint.position, Quaternion.identity);
+    }
+
+    public void ShootSound()
+    {
+        if (shootingEnemy)
+            SoundManager.soundManager.PlaySound(16);
+    }
+    public void StepSound()
+    {
+        SoundManager.soundManager.PlaySound(26);
     }
 }

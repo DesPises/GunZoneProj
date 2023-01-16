@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Camera : MonoBehaviour
 {
-    [SerializeField] private float sensitivity = 1000f;
+    private float sensitivity = 400f;
 
     private float xRotation;
     private float yRotation;
