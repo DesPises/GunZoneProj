@@ -1,1 +1,1 @@
-des-pises.itch.io/gunzone
+https://des-pises.itch.io/gunzone
